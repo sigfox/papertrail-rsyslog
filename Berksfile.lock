@@ -4,7 +4,7 @@
       "path": "."
     },
     "apt": {
-      "locked_version": "2.1.0"
+      "locked_version": "2.5.3"
     },
     "minitest-handler": {
       "locked_version": "0.1.7"
@@ -13,7 +13,7 @@
       "locked_version": "1.5.0"
     },
     "chef_handler": {
-      "locked_version": "1.1.4"
+      "locked_version": "1.1.6"
     }
   }
 }
