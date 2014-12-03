@@ -1,4 +1,4 @@
-Description [![Build Status](https://travis-ci.org/hipsnip-cookbooks/papertrail-rsyslog.png)](https://travis-ci.org/hipsnip-cookbooks/papertrail-rsyslog)
+Description [![Build Status](https://travis-ci.org/widgit-cookbooks/papertrail-rsyslog.png)](https://travis-ci.org/widgit-cookbooks/papertrail-rsyslog)
 ===========
 A simple cookbook for setting up a server to stream logs into Papertrail via a secure
 TCP connection.
