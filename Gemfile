@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-ruby "2.1.5"
-
 gem "rake", "~> 10.1.0"
 gem "berkshelf", "~> 2.0.9"
 gem "minitest-chef-handler", "~> 1.0.1", :group => :integration
