@@ -5,6 +5,7 @@ cookbook_test
 metadata.json
 .vagrant
 vendor.kitchen/
+vendor/
 .kitchen
 *.tar.gz
 .idea
