@@ -1,10 +1,10 @@
 name             "papertrail-rsyslog"
-maintainer       "Widgit Software"
+maintainer       "Symbols Worldwide Ltd."
 maintainer_email "simon@widgit.com"
 license          "Apache 2.0"
 description      "Installs/Configures rsyslog streaming into Papertrail"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "1.1.1"
+version          "1.1.2"
 supports 'ubuntu', ">= 12.04"
 
 depends "rsyslog", "~> 1.5.0"
