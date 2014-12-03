@@ -1,6 +1,6 @@
 name             "papertrail-rsyslog"
-maintainer       "HipSnip Ltd."
-maintainer_email "adam@hipsnip.com"
+maintainer       "Widgit Software"
+maintainer_email "simon@widgit.com"
 license          "Apache 2.0"
 description      "Installs/Configures rsyslog streaming into Papertrail"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
