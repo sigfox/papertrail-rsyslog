@@ -7,3 +7,4 @@ metadata.json
 vendor.kitchen/
 .kitchen
 *.tar.gz
+.idea
