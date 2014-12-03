@@ -20,6 +20,7 @@ describe "papertrail-rsyslog::default" do
         @chef_run.should render_file("/etc/rsyslog.d/10-papertrail.conf").with_content("$ActionSendStreamDriver gtls")
         @chef_run.should render_file("/etc/rsyslog.d/10-papertrail.conf").with_content("$ActionSendStreamDriverMode 1")
         @chef_run.should render_file("/etc/rsyslog.d/10-papertrail.conf").with_content("$ActionSendStreamDriverAuthMode x509/name")
+        @chef_run.should render_file("/etc/rsyslog.d/10-papertrail.conf").with_content("$ActionSendStreamDriverPermittedPeer *.papertrailapp.com")
       end
 
       it 'should set $ActionResumeRetryCount to "-1"' do
